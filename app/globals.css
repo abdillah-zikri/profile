@@ -112,6 +112,9 @@ a{
 
 @media only screen  and (max-device-width: 1024px) and (orientation: portrait) {
     /* Styles untuk tablet mode potret */
+    .root{
+        padding: 25px 50px;
+    }
     .root .header{
         justify-content: center;
     }
