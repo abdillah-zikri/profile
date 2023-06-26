@@ -4,5 +4,6 @@ const nextConfig = {}
 module.exports = {
   // Konfigurasi lainnya...
   target: 'experimental-serverless-trace',
+  output: 'export',
 };
 
