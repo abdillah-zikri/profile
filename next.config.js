@@ -1,8 +1,4 @@
-module.exports = {
-  // Konfigurasi lainnya...
-  exportPathMap: async function () {
-    return {
-      '/': { page: '/' },
-    };
-  },
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
+
+module.exports = nextConfig
