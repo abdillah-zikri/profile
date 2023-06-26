@@ -1,95 +1,39 @@
 import Image from 'next/image'
-import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div class="root">
+        <div class="header">
+            <a target="_blank" href="https://github.com/ABDILLAH12846">
+                <span>Github</span>
+            </a>
+            <span>/</span>
+            <a target="_blank" href="https://www.linkedin.com/in/abdillah-zikri-alhusni-576599211/">
+                <span>Linkedin</span>
+            </a>
+            <span>/</span>
+            <a target="_blank" href="https://www.instagram.com/a.zikri_al/">
+                <span>Instagram</span>
+            </a>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <div class="value">
+            <div class="wrapper">
+                <h1>I’am Abdillah Zikri Alhusni.</h1>
+                <h2>A Fullstack
+                    Developer and Cloud Enginer
+                </h2>
+                <p>
+                    A Fullstack Developer with expertise in React.js,
+                    React Native, Node.js, Express.js, and FastAPI. And a Cloud Engineer skilled in Docker, Kubernetes,
+                    CI/CD, and more, proficient in deploying and managing cloud applications with a focus on automation
+                    and
+                    scalability.
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="mailto:abdikl479@gmail.com" class="btn">Contact Me</a>
+        </div>
+    </div>
   )
 }
